@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m4e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -35,7 +35,7 @@ ragnar = rg.SimpleTurtle('turtle')
 bjorn.pen = rg.Pen('red', 10)
 ragnar.pen = rg.Pen('green', 10)
 bjorn.forward(25)
-for k in range (15):
+for k in range(15):
     bjorn.left(12)
     bjorn.forward(12)
     ragnar.right(30)
@@ -44,7 +44,7 @@ bjorn.left(90)
 bjorn.forward(115)
 bjorn.right(90)
 bjorn.forward(75)
-for k in range (15):
+for k in range(15):
     bjorn.right(12)
     bjorn.forward(12)
     ragnar.right(30)
